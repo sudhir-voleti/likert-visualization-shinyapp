@@ -1,0 +1,11 @@
+try(require("shiny")||install.packages("shiny"))
+try(require("grid")||install.packages("grid"))
+try(require("lattice")||install.packages("lattice"))
+try(require("latticeExtra")||install.packages("latticeExtra"))
+try(require("HH")||install.packages("HH"))
+
+library(shiny)
+library(grid)
+library(lattice)
+library(latticeExtra)
+library(HH)
