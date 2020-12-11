@@ -10,7 +10,8 @@ shinyUI(fluidPage(
   
   tags$head(includeScript("google_analytics.js")),
   # Header:
-  titlePanel("Likert Visualization"),
+  #titlePanel("Likert Visualization"),
+  titlePanel(title=div(img(src="logo.png",align='right'),"Likert Visualization")),
   # Input in sidepanel:
   sidebarPanel(
 
